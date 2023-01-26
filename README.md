@@ -4,7 +4,7 @@
 
 > ***CE/EE Departments of Hamedan University of Technology***
 
-> **Course Material by [Siavash Rajabi](), and [Mr. Ali Mohammadpour](https://github.com/alimpk)**
+> **Course Material by [Siavash Rajabi](https://scholar.google.com/citations?user=QhTEvqsAAAAJ), and [Mr. Ali Mohammadpour](https://github.com/alimpk)**
 
 ## Synopsis
 Welcome to Computer Networks I, under-graduate course. ! Here you will find friendly slides, small codes, and projects designed specfically for teach and learn applied computer networks.
@@ -30,6 +30,54 @@ Welcome to Computer Networks I, under-graduate course. ! Here you will find frie
 <p align="center">
   <img width="800" src="./raw/img/references-covers.jpg">
 </p>
+
+
+# Course Outline
+
+* **Introduction, Protocols and Layering**
+    * Goals and Motivation
+    * Network uses
+    * Network components
+    * Sockets
+    * Trace route
+    * Protocol layers
+    * Reference models
+    * Internet history
+
+* **Physical Layer**
+    * Media
+    * Signal
+    * Modulation
+    * limits
+
+* **Data Link Layer**
+    * Framing
+    * Error detection and correction
+    * Retransmition (ARQ)
+    * Multiplexing
+    * Random Access
+    * Wireless Access
+    * Switches
+
+* **Network Layer**
+    * Network Services
+    * Internetworking
+    * IP Prefixes
+    * IP forwarding
+    * IPv4 and IPv6
+
+* **Routing**
+    * Shortest Path Routing
+    * Computing Shortest Paths
+    * Distance Vector Routing
+    * Flooding
+
+* **Transport Layer, Reliable Transport**
+    * Connection Establishment
+    * Connection Release
+    * Sliding Windows
+    * Flow Control
+    * Transmission Control Protocol (TCP)
 
 # Quick Start
 
