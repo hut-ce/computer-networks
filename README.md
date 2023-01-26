@@ -4,7 +4,7 @@
 
 > ***CE/EE Departments of Hamedan University of Technology***
 
-> **Course Material by [Siavash Rajabi](https://scholar.google.com/citations?user=QhTEvqsAAAAJ), and [Mr. Ali Mohammadpour](https://github.com/alimpk)**
+> **Course Material by [Dr. Siavash Rajabi](https://scholar.google.com/citations?user=QhTEvqsAAAAJ), and [Mr. Ali Mohammadpour](https://github.com/alimpk)**
 
 ## Synopsis
 Welcome to Computer Networks I, under-graduate course. ! Here you will find friendly slides, small codes, and projects designed specfically for teach and learn applied computer networks.
