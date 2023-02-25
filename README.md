@@ -12,6 +12,10 @@ Welcome to Computer Networks I, under-graduate course. ! Here you will find frie
 
 ## Course Material
 
+## Slides
+
+**You can get latest slides from `Releases` section [:ledger:](https://github.com/hut-ce/computer-networks/releases/download/slides-2023-spring-v1/hut-computer-networks-slides.zip)**
+
 ## Refrences
 
 1. **Computer Networks**, 5th Edition,Andrew S. Tanenbaum, and David J. Wetherall, 2010
