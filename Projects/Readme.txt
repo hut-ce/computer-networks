@@ -6,4 +6,4 @@ To send the exercise,
 the directory must be located in the Projects folder. 
 
 Define the directory name as follows:
-Student number - project number
+Student number - project numberr
