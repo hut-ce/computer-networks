@@ -4,10 +4,11 @@
 
 > ***CE/EE Departments of Hamedan University of Technology***
 
-> **Course Material by [Dr. Siavash Rajabi](https://scholar.google.com/citations?user=QhTEvqsAAAAJ), [Mr. Ali Mohammadpour](https://github.com/alimpk) and [Mr. Amir Sajad Hosein Pour](https://github.com/Crisiroid)**
+> **Course Material by [Dr. Siavash Rajabi](https://scholar.google.com/citations?user=QhTEvqsAAAAJ), and [Mr. Ali Mohammadpour](https://github.com/alimpk)**
+> **Course Current Maintainer and Head Teaching Assistant: [Mr. Amir Sajad Hosein Pour](https://github.com/crisiroid)**
 
 ## Synopsis
-Welcome to Computer Networks I, under-graduate course. ! Here you will find friendly slides, small codes, and projects designed specfically for teach and learn applied computer networks.
+Welcome to Computer Networks I, undergraduate course. ! Here you will find friendly slides, small codes, and projects designed specifically for teaching and learning applied computer networks.
 
 
 ## Course Material
@@ -88,7 +89,22 @@ Welcome to Computer Networks I, under-graduate course. ! Here you will find frie
 
 # Quick Start
 
-* The `archive` directory contains all of non-common course materials for last semesters, you can use them for more practices.
+* The `archive` directory contains all of the non-common course materials for the last semester, you can use them for more practice.
 * The `material` directory contains all course learning/teaching/materials
-* The `assignment` directory contains all of Problem Sets and Assignments that has template design files.
-* The `samples` directory is contains all of sample cores for subjects.
+* The `assignment` directory contains all of the Problem Sets and Assignments that have template design files.
+* The `samples` directory contains all of the sample cores for subjects.
+
+# Taeaching Assistants and Course Maintainers
+
+### Spring 2024
+* [Mr. Amir Sajad Hosein Pour](https://github.com/crisiroid), Course Maintainer, Teaching Assistant
+* [alimpk](https://github.com/alimpk), Course Material Consultant
+
+### Fall 2023
+* [Mr. Ali Mohammadpour](https://github.com/alimpk), Course Maintainer, Teaching Assistant
+* Mr. Amirhossein Hajloo, Teaching Assistant
+
+ ### Spring 2023
+* [Mr. Ali Mohammadpour](https://github.com/alimpk), Course Maintainer, Teaching Assistant
+* Mr. Amirhossein Hajloo, Teaching Assistant
+
