@@ -2,8 +2,8 @@
 
 import socket
 
-host = socket.gethostname()
-port = 12021
+host = "127.0.0.1"
+port = 12023
 
 c_socket = socket.socket()
 c_socket.connect((host, port))
