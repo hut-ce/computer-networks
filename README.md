@@ -96,6 +96,10 @@ Welcome to Computer Networks I, undergraduate course. ! Here you will find frien
 
 # Taeaching Assistants and Course Maintainers
 
+### Fall 2024
+* [Mr. Amir Sajad Hosein Pour](https://github.com/crisiroid), Course Maintainer, Teaching Assistant
+* [alimpk](https://github.com/alimpk), Course Material Consultant
+
 ### Spring 2024
 * [Mr. Amir Sajad Hosein Pour](https://github.com/crisiroid), Course Maintainer, Teaching Assistant
 * [alimpk](https://github.com/alimpk), Course Material Consultant
