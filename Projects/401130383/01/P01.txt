@@ -10,6 +10,17 @@ IPv4 is 32 bits and it can cover a maximum of 2^32 i.e. 4.5 billion devices, but
 
 
 3. 
+
+Because 256, which is the range of host id, is not divisible by 9, it is divided by the nearest number, i.e. 16.
+
+2 power x = 16 -> x = 4
+
+before:  Net id 24 bit , host id 8 bit , SM 255.255.255.0
+
+after:   Net id 24+4 bit , host id 8-4 bit , SM 11111111.11111111.11111111.11110000
+						255	 255	  255	   240
+
+
 	a. SM: 255.255.255.240 /28
 
 	b. 1
