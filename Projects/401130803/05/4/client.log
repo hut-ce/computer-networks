@@ -1,0 +1,7 @@
+2024-12-08 20:17:13,298 - INFO - Connected to server at 192.168.152.152:5050
+2024-12-08 20:17:28,435 - INFO - Sent data to server: [9, 6, 7, 8]
+2024-12-08 20:19:27,949 - INFO - Connected to server at 192.168.152.152:5050
+2024-12-08 20:19:38,353 - INFO - Sent data to server: [8, 9, 10, 4, 35, 78]
+2024-12-08 20:19:45,526 - ERROR - Invalid input from user: [38 87 98]
+2024-12-08 20:19:56,620 - ERROR - Invalid input from user: [12,98,090]
+2024-12-08 20:20:05,182 - ERROR - Invalid input from user: 9,8,76,5
