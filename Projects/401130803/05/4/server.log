@@ -1,0 +1,11 @@
+2024-12-08 20:16:27,216 - INFO - SERVER is running
+2024-12-08 20:16:33,461 - INFO - SERVER is running
+2024-12-08 20:16:59,402 - INFO - SERVER is running
+2024-12-08 20:17:07,517 - INFO - SERVER is running
+2024-12-08 20:17:13,299 - INFO - Connected to ('192.168.152.152', 60440)
+2024-12-08 20:17:28,435 - INFO - Received data from ('192.168.152.152', 60440): 9 6 7 8
+2024-12-08 20:17:40,271 - ERROR - Error handling client ('192.168.152.152', 60440): [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-08 20:19:22,939 - INFO - SERVER is running
+2024-12-08 20:19:27,950 - INFO - Connected to ('192.168.152.152', 60529)
+2024-12-08 20:19:38,353 - INFO - Received data from ('192.168.152.152', 60529): 8 9 10 4 35 78
+2024-12-08 20:20:27,616 - ERROR - Error handling client ('192.168.152.152', 60529): [WinError 10054] An existing connection was forcibly closed by the remote host
