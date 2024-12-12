@@ -1,0 +1,56 @@
+INFO:root:Server is listening...
+INFO:root:Connected by ('127.0.0.1', 8472)
+INFO:root:Connected by ('127.0.0.1', 8473)
+INFO:root:Connected by ('127.0.0.1', 8471)
+INFO:root:Connected by ('127.0.0.1', 8470)
+INFO:root:Received array: [4, 8, 1, 0]
+INFO:root:Received result for stalin_sort
+INFO:root:Received result for bogo_sort
+INFO:root:Received result for bubble_sort
+INFO:root:The fastest algorithms are: stalin_sort, bogo_sort, bubble_sort
+INFO:root:The fastest algorithms are: stalin_sort, bogo_sort, bubble_sort
+INFO:root:Algorithm: stalin_sort, Sorted Array: 4 8
+INFO:root:Algorithm: stalin_sort, Sorted Array: 4 8
+INFO:root:Algorithm: bogo_sort, Sorted Array: 0 1 4 8
+INFO:root:Algorithm: bogo_sort, Sorted Array: 0 1 4 8
+INFO:root:Algorithm: bubble_sort, Sorted Array: 0 1 4 8
+INFO:root:Algorithm: bubble_sort, Sorted Array: 0 1 4 8
+INFO:root:Server is listening...
+INFO:root:Connected by ('127.0.0.1', 8513)
+INFO:root:Connected by ('127.0.0.1', 8512)
+INFO:root:Connected by ('127.0.0.1', 8510)
+INFO:root:Connected by ('127.0.0.1', 8511)
+INFO:root:Received array: [8, 1, 4, 67, 42, 0, 98, 67, 50]
+INFO:root:Received result for stalin_sort - spend time is 0.0
+INFO:root:Received result for bubble_sort - spend time is 0.0
+INFO:root:Received result for bogo_sort - spend time is 0.23903131484985352
+INFO:root:The fastest algorithms are: stalin_sort, bubble_sort
+INFO:root:Algorithm: stalin_sort, Sorted Array: 8 67 98
+INFO:root:Algorithm: bubble_sort, Sorted Array: 0 1 4 8 42 50 67 67 98
+INFO:root:Algorithm: bogo_sort, Sorted Array: 0 1 4 8 42 50 67 67 98
+INFO:root:Server is listening...
+INFO:root:Connected by ('127.0.0.1', 8559)
+INFO:root:Connected by ('127.0.0.1', 8558)
+INFO:root:Connected by ('127.0.0.1', 8557)
+INFO:root:Connected by ('127.0.0.1', 8560)
+INFO:root:Received array: [7, 4, 5, 0]
+INFO:root:Received result for bubble_sort - spent time is 0.0
+INFO:root:Received result for bogo_sort - spent time is 0.0
+INFO:root:Received result for stalin_sort - spent time is 0.0
+INFO:root:The fastest algorithms are: bubble_sort, bogo_sort, stalin_sort
+INFO:root:Algorithm: bubble_sort, Sorted Array: 0 4 5 7
+INFO:root:Algorithm: bogo_sort, Sorted Array: 0 4 5 7
+INFO:root:Algorithm: stalin_sort, Sorted Array: 7
+INFO:root:Server is listening...
+INFO:root:Connected by ('127.0.0.1', 8651)
+INFO:root:Connected by ('127.0.0.1', 8652)
+INFO:root:Connected by ('127.0.0.1', 8653)
+INFO:root:Connected by ('127.0.0.1', 8650)
+INFO:root:Received array: [4, 8, 0]
+INFO:root:Received result for stalin_sort - spent time is 0.0
+INFO:root:Received result for bubble_sort - spent time is 0.0
+INFO:root:Received result for bogo_sort - spent time is 0.0009932518005371094
+INFO:root:The fastest algorithms are: stalin_sort, bubble_sort
+INFO:root:Algorithm: stalin_sort, Sorted Array: 4 8
+INFO:root:Algorithm: bubble_sort, Sorted Array: 0 4 8
+INFO:root:Algorithm: bogo_sort, Sorted Array: 0 4 8

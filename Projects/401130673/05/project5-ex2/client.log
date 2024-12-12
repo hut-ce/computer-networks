@@ -1,0 +1,33 @@
+INFO:root:Sent array: 4 8 1 0
+INFO:root:Received array: [4, 8, 1, 0]
+INFO:root:Received array: [4, 8, 1, 0]
+INFO:root:Sorted array using stalin_sort
+INFO:root:Received array: [4, 8, 1, 0]
+INFO:root:Sorted array using bogo_sort
+INFO:root:Sorted array using bubble_sort
+INFO:root:Sent array: 8 1 4 67 42 0 98 67 50
+INFO:root:Received array: [8, 1, 4, 67, 42, 0, 98, 67, 50]
+INFO:root:Received array: [8, 1, 4, 67, 42, 0, 98, 67, 50]
+INFO:root:Sorted array using stalin_sort
+INFO:root:Received array: [8, 1, 4, 67, 42, 0, 98, 67, 50]
+INFO:root:Sorted array using bubble_sort
+INFO:root:Sorted array using bogo_sort
+INFO:root:Sent array: 7 4 5 0
+INFO:root:Received array: [7, 4, 5, 0]
+INFO:root:Sorted array using bubble_sort
+INFO:root:Received array: [7, 4, 5, 0]
+INFO:root:Received array: [7, 4, 5, 0]
+INFO:root:Sorted array using bogo_sort
+INFO:root:Sorted array using stalin_sort
+INFO:root:Sent array: 8 6
+ERROR:root:Client error: [WinError 10061] No connection could be made because the target machine actively refused it
+ERROR:root:Client error: [WinError 10061] No connection could be made because the target machine actively refused it
+ERROR:root:Client error: [WinError 10061] No connection could be made because the target machine actively refused it
+ERROR:root:Client error: [WinError 10061] No connection could be made because the target machine actively refused it
+INFO:root:Sent array: 4 8 0
+INFO:root:Received array: [4, 8, 0]
+INFO:root:Sorted array using stalin_sort
+INFO:root:Received array: [4, 8, 0]
+INFO:root:Sorted array using bubble_sort
+INFO:root:Received array: [4, 8, 0]
+INFO:root:Sorted array using bogo_sort
