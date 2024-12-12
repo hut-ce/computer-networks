@@ -1,7 +1,6 @@
 import socket
 import threading
 import random
-import time
 import logging
   
 logging.basicConfig(filename='server.log',level=logging.INFO)
@@ -12,22 +11,11 @@ def handle_client(client,address,id):
         array = client.recv(1024).decode('utf-8').split()
         array =list(map(int,array))
         sorted_arrays = []
-        fastest_time = float('inf')
-        fastest_algorithm = None
         for sorting_algorithm in [stalin_so,bogo_so,bubble_so]:
-            start = time.time()
             sorted_array = sorting_algorithm(array.copy())
-            end = time.time()
-            duration_time = end-start
-            sorted_arrays.append((str(sorting_algorithm).split()[1],sorted_array,duration_time))
-    
-        for result in sorted_arrays:
-            if result[2] < fastest_time:
-                fastest_time = result[2]
-                fastest_algorithm = result[0]
+            sorted_arrays.append((str(sorting_algorithm).split()[1],sorted_array))
 
         results = '\n'.join(' '.join(map(str,arr)) for arr in sorted_arrays)
-        results += f"\n\nfastest algorithm is {fastest_algorithm}!"
         client.send(results.encode('utf-8'))
         logging.info(f"client {id} sorted array sent successfully!")
 
@@ -90,4 +78,4 @@ def main():
    
 
 if __name__ == "__main__":
-        main()
+    main()

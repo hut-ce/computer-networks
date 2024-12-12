@@ -54,3 +54,44 @@ INFO:root:The fastest algorithms are: stalin_sort, bubble_sort
 INFO:root:Algorithm: stalin_sort, Sorted Array: 4 8
 INFO:root:Algorithm: bubble_sort, Sorted Array: 0 4 8
 INFO:root:Algorithm: bogo_sort, Sorted Array: 0 4 8
+INFO:root:Server is listening...
+INFO:root:Connected by ('127.0.0.1', 8920)
+INFO:root:Connected by ('127.0.0.1', 8922)
+INFO:root:Connected by ('127.0.0.1', 8921)
+INFO:root:Connected by ('127.0.0.1', 8919)
+INFO:root:Received array: [5, 2, 3]
+INFO:root:Received result for stalin_sort - spent time is 0.0
+INFO:root:Received result for bubble_sort - spent time is 0.0
+INFO:root:Received result for bogo_sort - spent time is 0.0
+INFO:root:The fastest algorithms are: stalin_sort, bubble_sort, bogo_sort
+ERROR:root:Error handling client: 'dict' object has no attribute 'encode'
+INFO:root:Server is listening...
+INFO:root:Server is listening...
+INFO:root:Connected by ('127.0.0.1', 8930)
+INFO:root:Connected by ('127.0.0.1', 8931)
+INFO:root:Connected by ('127.0.0.1', 8932)
+INFO:root:Connected by ('127.0.0.1', 8929)
+INFO:root:Received array: [5, 2, 13]
+INFO:root:Received result for bubble_sort - spent time is 0.0
+INFO:root:Received result for stalin_sort - spent time is 0.0
+INFO:root:Received result for bogo_sort - spent time is 0.0
+INFO:root:The fastest algorithms are: bubble_sort, stalin_sort, bogo_sort
+INFO:root:Algorithm: bubble_sort, Sorted Array: 2 5 13
+ERROR:root:Error handling client: [WinError 10053] An established connection was aborted by the software in your host machine
+INFO:root:Server is listening...
+INFO:root:Connected by ('127.0.0.1', 8949)
+INFO:root:Connected by ('127.0.0.1', 8948)
+INFO:root:Connected by ('127.0.0.1', 8947)
+INFO:root:Connected by ('127.0.0.1', 8950)
+INFO:root:Received array: [4, 990, 7]
+INFO:root:Received result for stalin_sort - spent time is 0.0
+INFO:root:Received result for bubble_sort - spent time is 0.0
+INFO:root:Received result for bogo_sort - spent time is 0.0
+INFO:root:The fastest algorithms are: stalin_sort, bubble_sort, bogo_sort
+INFO:root:The fastest algorithms are: stalin_sort, bubble_sort, bogo_sort
+INFO:root:Algorithm: stalin_sort, Sorted Array: 4 990
+INFO:root:Algorithm: stalin_sort, Sorted Array: 4 990
+INFO:root:Algorithm: bubble_sort, Sorted Array: 4 7 990
+INFO:root:Algorithm: bubble_sort, Sorted Array: 4 7 990
+INFO:root:Algorithm: bogo_sort, Sorted Array: 4 7 990
+INFO:root:Algorithm: bogo_sort, Sorted Array: 4 7 990

@@ -13,10 +13,10 @@ def broadcast(data, clients):
         except Exception as e:
             logging.error(f'Error sending data to a client: {e}')
 
-def handle_client(client_socket, clients, results):
+def handle_client(client, clients, results):
     try:
         
-        data = client_socket.recv(1024).decode('utf-8')
+        data = client.recv(1024).decode('utf-8')
         if ',' in data:
             algorithm, time, sorted_array = data.split(',')
             results[algorithm] = {'time': float(time), 'sorted_array': sorted_array}
@@ -38,6 +38,7 @@ def handle_client(client_socket, clients, results):
                     logging.info(f"The fastest algorithms are: {', '.join(fastest_algorithm)}")
                 
                 for alg, result in results.items():
+                    #print(result)
                     logging.info(f"Algorithm: {alg}, Sorted Array: {result['sorted_array']}")
         else:
             array = list(map(int, data.split()))
@@ -48,22 +49,19 @@ def handle_client(client_socket, clients, results):
     except Exception as e:
         logging.error(f"Error handling client: {e}")
     finally:
-        client_socket.close()
+        client.close()
 
-def start_server():
+def start_server(server):
     try:
-        server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        server.bind(('localhost', 5050))
-        server.listen(4)
-        logging.info('Server is listening...')
+        
 
         clients = []
         results = {}
 
         while True:
-            client_socket, addr = server.accept()
+            client, addr = server.accept()
             logging.info(f'Connected by {addr}')
-            clients.append(client_socket)
+            clients.append(client)
 
             if len(clients) == 4:
                 for client in clients:
@@ -74,5 +72,12 @@ def start_server():
     finally:
         server.close()
 
+def main():
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.bind(('localhost', 5050))
+    server.listen(4)
+    logging.info('Server is listening...')
+    start_server(server)
+
 if __name__ == '__main__':
-    start_server()
+    main()

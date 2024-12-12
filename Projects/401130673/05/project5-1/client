@@ -51,26 +51,26 @@ def handle_client(arr, algorithm):
 
 def start_client(algorithm):
     try:
-        client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        client_socket.connect(('localhost', 5050))
+        client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        client.connect(('localhost', 5050))
         
         if algorithm == 'sender':
             array = input("Please enter an array of numbers, separated by spaces: ")
-            client_socket.send(array.encode('utf-8'))
+            client.send(array.encode('utf-8'))
             logging.info(f"Sent array: {array}")
         else:
-            data = client_socket.recv(1024).decode('utf-8')
+            data = client.recv(1024).decode('utf-8')
             array = list(map(int, data.split()))
             logging.info(f"Received array: {array}")
             spent_time, sorted_array = handle_client(array, algorithm)
             sorted_array_str = ' '.join(map(str, sorted_array))
-            client_socket.send(f'{algorithm},{spent_time},{sorted_array_str}'.encode('utf-8'))
+            client.send(f'{algorithm},{spent_time},{sorted_array_str}'.encode('utf-8'))
         
-        client_socket.close()
+        client.close()
     except Exception as e:
         logging.error(f"Client error: {e}")
 
-if __name__ == '__main__':
+def main():
     algorithms = ['bubble_sort', 'stalin_sort', 'bogo_sort']
     threads = []
 
@@ -83,3 +83,6 @@ if __name__ == '__main__':
 
     for thread in threads:
         thread.join()
+        
+if __name__ == '__main__':
+   main()

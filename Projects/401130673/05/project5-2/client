@@ -1,5 +1,4 @@
 import socket
-import threading
 import logging
 
 HOST = socket.gethostbyname(socket.gethostname())

@@ -31,3 +31,28 @@ INFO:root:Received array: [4, 8, 0]
 INFO:root:Sorted array using bubble_sort
 INFO:root:Received array: [4, 8, 0]
 INFO:root:Sorted array using bogo_sort
+INFO:root:Sent array: 5 2 3
+INFO:root:Received array: [5, 2, 3]
+INFO:root:Sorted array using stalin_sort
+INFO:root:Received array: [5, 2, 3]
+INFO:root:Received array: [5, 2, 3]
+INFO:root:Sorted array using bubble_sort
+INFO:root:Sorted array using bogo_sort
+INFO:root:Sent array: 5 2 13
+INFO:root:Received array: [5, 2, 13]
+INFO:root:Received array: [5, 2, 13]
+INFO:root:Sorted array using bubble_sort
+INFO:root:Sorted array using stalin_sort
+INFO:root:Received array: [5, 2, 13]
+INFO:root:Sorted array using bogo_sort
+ERROR:root:Client error: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:root:Client error: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:root:Client error: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:root:Client error: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Sent array: 4 990 7
+INFO:root:Received array: [4, 990, 7]
+INFO:root:Sorted array using stalin_sort
+INFO:root:Received array: [4, 990, 7]
+INFO:root:Received array: [4, 990, 7]
+INFO:root:Sorted array using bubble_sort
+INFO:root:Sorted array using bogo_sort
