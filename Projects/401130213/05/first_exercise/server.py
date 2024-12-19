@@ -50,11 +50,10 @@ def handle_clients(connection, address):
                 for i in range(len(clients)):
                     if clients[i] != connection:
                         if not i > 2:
-                            # clients[i].send(str(i+1).encode('utf-8'))
                             clients[i].send(f"answer {str(i+1)}".encode('utf-8'))
                         else:
                             clients[i].send("answer 3".encode('utf-8'))
-                            # clients[i].send("3".encode('utf-8'))
+
                         start_time = time.time()
                         clients[i].send(message.encode('utf-8'))
                         end_time = time.time()

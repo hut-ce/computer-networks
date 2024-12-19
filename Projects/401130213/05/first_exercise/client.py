@@ -8,8 +8,6 @@ PORT = 5050
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 client.connect((IP, PORT))
-#
-# name = input("Please enter your name: ")
 
 
 def stalin_sort(array):
@@ -36,12 +34,11 @@ def bogosort(arr):
 
 def bubble_sort(arr):
     n = len(arr)
-    # Traverse through all array elements
+
     for i in range(n):
-        # Last i elements are already in place
+
         for j in range(0, n-i-1):
-            # Traverse the array from 0 to n-i-1
-            # Swap if the element found is greater than the next element
+
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
@@ -52,7 +49,6 @@ def receive_message(client):
         try:
             command, sorting_index_str = (client.recv(1024).decode()).split(" ")
             if command == "answer":
-                # sorting_index = int(client.recv(1024).decode())
                 sorting_index = int(sorting_index_str)
                 if not sorting_index:
                     break
