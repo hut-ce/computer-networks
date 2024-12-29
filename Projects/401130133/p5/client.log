@@ -1,0 +1,5 @@
+2024-12-20 02:01:09,126 - Connected to server.
+2024-12-20 02:01:22,786 - Sent array to server: 3 1 4 1 4 6 9
+2024-12-20 02:01:22,788 - Received from server: Stalin: Sorted array: [3, 4, 4, 6, 9], Time: 0.0000s
+2024-12-20 02:01:22,792 - Received from server: Bogo: Sorted array: [1, 1, 3, 4, 4, 6, 9], Time: 0.0038s
+2024-12-20 02:01:22,793 - Received from server: Bubble: Sorted array: [1, 1, 3, 4, 4, 6, 9], Time: 0.0000s
