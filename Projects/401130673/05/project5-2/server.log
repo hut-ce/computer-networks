@@ -1,0 +1,34 @@
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
+INFO:root:data sent successfully!
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
+INFO:root:data sent successfully!
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
+INFO:root:data sent successfully!
+INFO:root:connection from client 2
+INFO:root:connection from client 3
+INFO:root:connection from client 4
+INFO:root:connection from client 5
+INFO:root:connection from client 1
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
+INFO:root:connection from client <built-in function id> successfully!
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
+INFO:root:connection from client 2
+INFO:root:connection from client 3
+INFO:root:connection from client 4
+INFO:root:connection from client 5
+INFO:root:client 3 sorted array sent successfully!
+INFO:root:connection from client 1
+ERROR:root:client 1: error - tuple index out of range
+INFO:root:connection from client 1
+INFO:root:client 1 sorted array sent successfully!
