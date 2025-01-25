@@ -52,6 +52,7 @@ class Chatroom:
         return None
 
     def broadcast_message(self, sender, message):
+        message = profanity_filter(message)
         for client in self.clients:
             if client.name != sender.name and sender.name not in client.blocked_names:
                 client.send_message(f"{sender.name}: {message}")
